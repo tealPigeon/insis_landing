@@ -89,13 +89,10 @@ section {
 
 .benefits .wrapper {
     position: relative;
-    /* width: 100%; */
     width: 1072px;
     height: 603px;
     max-width: 1500px;
     margin: auto;
-
-    /* height: 750px; */
 }
 
 .benefits .title-h3 {
@@ -151,17 +148,16 @@ section {
 }
 
 .feedback__input {
-    font-family: 'Futura PT';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-
     display: flex;
     align-items: flex-end;
     text-align: center;
 
     color: #464646;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .feedback__wrapper {
@@ -239,8 +235,6 @@ section {
     margin-left: -107px;
     z-index: 1;
 }
-
-
 
 .container {
     max-width: 1500px;
@@ -339,8 +333,6 @@ section {
     background: #6BA539;
 }
 
-.footer__copyright {}
-
 .footer__copyright__text {
     font-family: 'Montserrat';
     font-style: normal;
@@ -352,8 +344,6 @@ section {
     margin-top: 10px;
 }
 
-.black {}
-
 .footer-contacts {
     display: flex;
     flex-direction: column;
@@ -362,14 +352,12 @@ section {
 
 .privacy-politic {
     width: 436px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
-
 }
 
 
@@ -388,14 +376,11 @@ section {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-
     color: #5E4F47;
-
 }
 
 .benefits .image {
     position: absolute;
-    /* top: -162px; */
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -546,11 +531,57 @@ hr {
 
 @media (max-width:1200px) {
 
+    .main .title-h3 {
+        width: 201px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 39px;
+    }
+
+    .main__container {
+        width: 490px;
+        margin: auto;
+        padding: 0;
+        padding-top: 45px;
+        height: 671px;
+    }
+
+
+    .main__title__wrapper {
+        width: 387px;
+        margin-top: 60px;
+    }
+
+    .main__image {
+        display: none;
+    }
+
+    .main__image__moble {
+        display: block;
+        margin-top: -45px;
+        width: 700px;
+        max-width: none;
+        margin-left: -104px;
+        height: 615px;
+    }
+
+    .header__logo {
+        width: 193px;
+    }
+
+    .header__contact {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .header {
+        height: 49px;
+    }
+
     .benefit__right-bottom img {
         width: 45px;
         height: 45px;
     }
-
 
     .benefits .title-h3 {
         margin-top: 20px;
@@ -650,27 +681,6 @@ hr {
         margin-top: 33px;
     }
 
-    .header__logo {
-        width: 193px;
-    }
-
-    .header__contact {
-        font-size: 24px;
-        line-height: 29px;
-    }
-
-    .header {
-        height: 49px;
-    }
-
-    .main__container {
-        width: 490px;
-        margin: auto;
-        padding: 0;
-        padding-top: 45px;
-        height: 671px;
-    }
-
     .advantages {
         height: 671px;
     }
@@ -692,25 +702,6 @@ hr {
         line-height: 39px;
     }
 
-    .main__title__wrapper {
-        width: 387px;
-        margin-top: 60px;
-    }
-
-    .main__image {
-        display: none;
-    }
-
-    .main__image__moble {
-        display: block;
-        margin-top: -45px;
-        width: 700px;
-        max-width: none;
-        margin-left: -104px;
-        height: 615px;
-    }
-
-
     .advantages__container {
         padding: 91px 41px 103px 28px;
 
@@ -722,7 +713,6 @@ hr {
     }
 
     .title-h2 {
-        /* font-weight: 700; */
         font-size: 32px;
         line-height: 39px;
         letter-spacing: -0.02em;
@@ -746,10 +736,6 @@ hr {
     .desktop {
         display: none;
     }
-
-    /* .feedback__arrow {
-        display: none;
-    } */
 
     .feedback__form {
         margin: 0;
@@ -833,13 +819,6 @@ hr {
 
     .footer-contacts {
         align-items: center;
-    }
-
-    .main .title-h3 {
-        width: 201px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 39px;
     }
 
     .advantages__text {
